@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <bytecodeTargetLevel>
+      <module name="Archiver" target="14" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Archiver" options="--add-exports java.desktop/sun.swing=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>
